@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin sinh viên</title>
+    <style type="text/css">
+        .ThôngtinSV { display: none ;}
+        .AnhSV ing {
+              width: 150px;
+              height: 150px;
+              border-radius: 20px;
+              box-shadow: 5px 5px 10px #aaa;
+        }
+        .TenSV {font-weight: bold;}
+        .MSSV {font-style: italic;}
+        .MSSV::before { content:  "-";}
+        .AnhSV {
+            text-align: center;
+            width: 150px;
+            margin: 0px 20px;
+            float: left;
+            cursor: pointer;
+        }
+        .AnhSV:hover 
+        .ThongtinSV {display:block}
+    </style>
+</head>
+<body>
+     <div class="AnhSV">
+         <img src="Hoa/Trần Văn A.png">
+      <div class="ThongtinSV">
+              <span class="TenSV">Trần Văn A</span>
+              <span class="MSSV">23070410</span>
+     </div>
+     </div>
+     <div class="AnhSV">
+          <img src="Hoa/Nguyễn Thị B.jpg">
+     <div class="ThongtinSV">
+           <span class="TenSV">Nguyễn Thị B</span>
+           <span class="MSSV">23070411</span>
+    </div>
+   </div>
+   <div class="AnhSV">
+     <img src="Hoa/Trần Văn C.jpg">
+     <div class="ThongtinSV">
+          <span class="TenSV">Trần Văn C</span>
+          <span class="MSSV">23070412</span>
+     </div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+MyCustomizeTag  {
+     display: block;
+     text-align: center;
+     text-transform: capitalize;
+     text-decoration: underline;
+     width: 500px;
+}
+div {
+     background-color: yellow;
+     margin: 0px 0px 5px 5px;
+     width: 300px;
+}
+.GroupFormat{
+    font-weight: bold;
+    color: #f00;
+    width: 400px;
+}
+#TheHighestFriority{
+     background-color: #000;
+     font-weight: none;
+     font: italic 300px "Times New Romnan";
+     color: #fff;
+}

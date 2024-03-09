@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The priority of selectors</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+         * { font: 20px "Comic Sans MS";}
+    </style>
+</head>
+<body>
+    <MyCustomzeTag>Here is customize tag</MyCustomizeTag>
+             <div>The first paragraph.</div>
+              <div class="GroupFomat">The second paragraph.</div>
+             <div class="GroupFomat" id="TheHighestPriority">
+                The thirt paragraph.
+             </div>
+             <div>The fourth paragraph.</div>
+       <div class="GroupFormat">The fifth paragraph.</div>
+    <div class="GroupFomat">The sixth paragraph.</div>
+    <div>The seventh paragraph.</div>
+</body>
+</html>
